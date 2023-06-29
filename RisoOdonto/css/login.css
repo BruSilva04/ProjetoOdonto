@@ -1,0 +1,135 @@
+*{
+    text-decoration: none;
+    list-style: none;
+}
+body {
+    font-style: 14px;
+    overflow-x: hidden;
+    background-color: #4B0082;
+}
+/* #region nav */
+.navbar{
+    background-color: rgba(131, 83, 141, 0.726) !important;
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+}
+.navbar li:hover{
+    background-color: #4B0082;
+}
+.fa-sharp{
+    font-size: 30px;
+}
+
+.dropdown-menu{
+    background-color: rgba(131, 83, 141, 0.726) !important;
+}
+.dropdown-item{
+    color: white;
+}
+/* #endregion */
+
+
+
+/* #region-login */
+.input-container {
+    text-align: center ;
+    margin-bottom: 20px ;
+}
+
+.inputEmail {
+    width: 600px;
+    padding: 10px;
+    border: none;
+    font-size: 1.8em;
+    border-radius: 8px;
+}
+
+.inputSenha {
+    width: 600px;
+    padding: 10px;
+    border: none;
+    font-size: 1.8em;
+    border-radius: 8px;
+}
+
+.meio-login {
+    color: white;
+    text-align: center;
+    margin-top: 350px;
+}
+
+.btn {
+    width: 200px;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* #region footer */
+footer {
+    background-color: rgba(255, 255, 255, 0.726);
+    color: #4B0082;
+}
+
+.footer-inner {
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+    padding: 70px;
+}
+hr {
+    margin-left: auto;
+    margin-right: auto;
+    border-width: 3px;
+}
+
+.container-div{
+    position: relative;
+    top: 800px;
+}
+.whatsapp-link{
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 40px;
+    background-color: #25d366;
+    color: white;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 1px 1px 2px #888;
+    z-index: 1000;
+}
+.whatsapp-link i{
+    margin-top: 14px;
+
+}
+/* Responsividade */
+@media screen and (max-width: 768px) {
+    .footer-container {
+        text-align: center;
+    }
+
+    .direita,
+    .esquerda {
+        position: static;
+        left: auto;
+        padding: 10px;
+    }
+
+    .footer-inner {
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+    }
+
+    hr {
+        width: 80%;
+    }
+}
+
+/* #endregion */
