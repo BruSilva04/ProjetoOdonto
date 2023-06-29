@@ -413,13 +413,13 @@ footer {
 .direita {
     position: relative;
     top: 110px;
-    left: 330px;
+    left: 310px;
     padding: 10px;
 }
 
 .esquerda {
     position: relative;
-    left: 1300px;
+    left: 1150px;
     padding: 10px;
 }
 
